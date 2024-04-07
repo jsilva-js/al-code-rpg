@@ -15,7 +15,9 @@
         "baseUrl": ".",
         "noFallthroughCasesInSwitch": true,
         "outDir": "./dist",
-        "noUnusedLocals": false
+        "noUnusedLocals": false,
+        "declaration": true,
+        "sourceMap": true
       },
       "compileOnSave": true,
       "include": ["."]
